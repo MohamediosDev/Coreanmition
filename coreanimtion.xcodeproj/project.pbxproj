@@ -13,6 +13,8 @@
 		D903282C24B774F000B328F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D903282A24B774F000B328F9 /* Main.storyboard */; };
 		D903282E24B774F300B328F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D903282D24B774F300B328F9 /* Assets.xcassets */; };
 		D903283124B774F300B328F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D903282F24B774F300B328F9 /* LaunchScreen.storyboard */; };
+		D903283924B7755400B328F9 /* ShakeTextfiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903283824B7755400B328F9 /* ShakeTextfiled.swift */; };
+		D9A0773524B88C4900FB8417 /* Animtionbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A0773424B88C4900FB8417 /* Animtionbutton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D903282D24B774F300B328F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D903283024B774F300B328F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D903283224B774F300B328F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D903283824B7755400B328F9 /* ShakeTextfiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeTextfiled.swift; sourceTree = "<group>"; };
+		D9A0773424B88C4900FB8417 /* Animtionbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animtionbutton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,22 @@
 				D903282424B774F000B328F9 /* AppDelegate.swift */,
 				D903282624B774F000B328F9 /* SceneDelegate.swift */,
 				D903282824B774F000B328F9 /* ViewController.swift */,
+				D9A0773624B897D300FB8417 /* Animtion */,
 				D903282A24B774F000B328F9 /* Main.storyboard */,
 				D903282D24B774F300B328F9 /* Assets.xcassets */,
 				D903282F24B774F300B328F9 /* LaunchScreen.storyboard */,
 				D903283224B774F300B328F9 /* Info.plist */,
 			);
 			path = coreanimtion;
+			sourceTree = "<group>";
+		};
+		D9A0773624B897D300FB8417 /* Animtion */ = {
+			isa = PBXGroup;
+			children = (
+				D9A0773424B88C4900FB8417 /* Animtionbutton.swift */,
+				D903283824B7755400B328F9 /* ShakeTextfiled.swift */,
+			);
+			path = Animtion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A0773524B88C4900FB8417 /* Animtionbutton.swift in Sources */,
+				D903283924B7755400B328F9 /* ShakeTextfiled.swift in Sources */,
 				D903282924B774F000B328F9 /* ViewController.swift in Sources */,
 				D903282524B774F000B328F9 /* AppDelegate.swift in Sources */,
 				D903282724B774F000B328F9 /* SceneDelegate.swift in Sources */,
